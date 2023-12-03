@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    border: 1px solid;
+    width: 70%;
+    margin: 200px auto;
+    background-color: rgb(62, 168, 230);
+}
+
+#contact {
+    margin-top: 30px;
+    gap: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#more_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#name, #email, #url, #comments {
+    width: 70%;
+    outline: none;
+}
+
+label {
+    color: #00f;
+
+}
+.submit_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    
+    
+}
+
+#submit {
+    width: 70px;
+
+}
